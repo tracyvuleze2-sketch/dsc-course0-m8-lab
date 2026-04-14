@@ -1,24 +1,30 @@
 # Aviation Accident Analysis
 
 ## Project Overview
-This project analyzes aviation accident data from 1983-2023 to identify 
-the safest aircraft makes and models for an airline/airplane insurer. 
+This project analyzes aviation accident data from 1983-2023 to identify the safest aircraft across different makes and models for an airline/airplane insurer. 
 The analysis provides separate recommendations for small and large aircraft 
 and identifies key factors that contribute to aviation safety.
 
+
 ## Business Problem (Problem Statement)
-Our client (an airline/airplane insurer) wants to know:
+The client (an airline/airplane insurer) wants to know:
 - Which aircraft makes/models have low rates of total destruction
-- Which aircraft makes/models have low likelihood of fatal or serious 
-  passenger injuries in the event of an accident
-- What general variables/conditions affect safety outcomes
+- Which aircraft makes/models have low likelihood of fatal or serious passenger injuries in the event of an accident
+- What general variables/conditions and key factors affecting aviation safety outcomes
+
+## Objectives
+- Clean and prepare the raw aviation accident data
+- Perform exploratory data analysis
+- Compare aircraft by size(large vs small aircrafts) and model
+- Identify key factors affecting the safety outcomes of the aviation
+- Give insights and recommendations to the client
 
 ## Data
 - Source: NTSB Aviation Accident Database (1948-2023)
 - Filtered to: Professional builds, accidents from 1983 onwards
 - Final dataset: 63,746 accidents across 79 makes
 
-## Key Findings
+## Key Findings and Insights
 
 ### Small Aircraft Recommendations (≤20 passengers)
 - The Cessna 172 has the lowest injury rate with highest number of records
